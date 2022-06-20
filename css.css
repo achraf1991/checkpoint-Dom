@@ -1,0 +1,109 @@
+/* -----Initialisation---- */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Carousel */
+
+#carouselExampleIndicators {
+  margin: 0% 10%;
+  width: 80%;
+}
+
+/*.carousel img,
+.slide img {
+  width: 80%;
+  height: 20em;
+}
+
+/* -------- */
+
+/* Products */
+.products {
+  margin: 1% 0%;
+  padding: 1% 0%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.products img {
+  margin: 2%;
+  margin-bottom: 0%;
+  padding: 2%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card {
+  /* Box model */
+  margin: 1%;
+  padding: 1%;
+  /* flex box */
+  display: flex;
+  justify-content: center;
+}
+
+.card h2 {
+  text-align: center;
+  color: #265af7;
+}
+
+/* Quantity and +/- buttons */
+.card-body {
+  margin: 1%;
+  padding: 1%;
+  border-radius: 4px;
+  background-color: #265af7;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* images of cart */
+.cart-images {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Single price */
+.prx {
+  margin: 0%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------- */
+
+/* Total price */
+.total {
+  position: sticky;
+  bottom: 0;
+  font-size: 30px;
+  background-color: transparent;
+  color: #265af7;
+  
+  /*  Box model*/
+  margin: 1% 1%;
+  padding: 1%;
+  border: none;
+  border-radius: 4px;
+  /* Flexbox */
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+/* Like & remove buttons */
+.btn-like,
+.btn-remove {
+  background-color: transparent;
+  border: none;
+}
+/*.btn btn-outline-success my-2 my-sm-0 {
+  color: #002db4;
+  background-color: chartreuse;
+}
